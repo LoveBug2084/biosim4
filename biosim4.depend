@@ -1,0 +1,140 @@
+# depslib dependency file v1.0
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\analysis.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cassert>
+	<cstring>
+	<string>
+	"simulator.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\simulator.h
+	"basicTypes.h"
+	"params.h"
+	"indiv.h"
+	"grid.h"
+	"signals.h"
+	"peeps.h"
+	"random.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\basictypes.h
+	<cstdint>
+	<cmath>
+	<algorithm>
+	"random.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\random.h
+	<cstdint>
+	<climits>
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\params.h
+	<string>
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\indiv.h
+	<algorithm>
+	<cstdint>
+	<array>
+	"basicTypes.h"
+	"genome-neurons.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\genome-neurons.h
+	<cstdint>
+	<vector>
+	<cmath>
+	"sensors-actions.h"
+	"random.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\sensors-actions.h
+	<string>
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\grid.h
+	<cstdint>
+	<vector>
+	<functional>
+	"basicTypes.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\signals.h
+	<vector>
+	<cstdint>
+	"basicTypes.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\peeps.h
+	<cstdint>
+	<vector>
+	"basicTypes.h"
+	"grid.h"
+	"params.h"
+	"indiv.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\basictypes.cpp
+	<cassert>
+	"basicTypes.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\createbarrier.cpp
+	<cassert>
+	"simulator.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\endofgeneration.cpp
+	<iostream>
+	<utility>
+	<cassert>
+	<cstdlib>
+	<algorithm>
+	"simulator.h"
+	"imageWriter.h"
+
+1637028939 c:\users\galaxip\desktop\drive data\projects\biosim4\src\imagewriter.h
+	<atomic>
+	<mutex>
+	<condition_variable>
+	<thread>
+	"indiv.h"
+	"params.h"
+	"peeps.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\endofsimstep.cpp
+	<iostream>
+	<cmath>
+	"simulator.h"
+	"imageWriter.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\executeactions.cpp
+	<iostream>
+	<algorithm>
+	<cmath>
+	<array>
+	<cassert>
+	"simulator.h"
+	"omp.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\feedforward.cpp
+	<iostream>
+	<cassert>
+	<cmath>
+	"simulator.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\genome-compare.cpp
+	<cassert>
+	"simulator.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\genome.cpp
+	<vector>
+	<map>
+	<list>
+	<iostream>
+	<cassert>
+	<string>
+	"simulator.h"
+	"random.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\getsensor.cpp
+	<iostream>
+	<cassert>
+	<cmath>
+	"simulator.h"
+
+1637028939 source:c:\users\galaxip\desktop\drive data\projects\biosim4\src\grid.cpp
+	<functional>
+	<cassert>
+	"simulator.h"
+
